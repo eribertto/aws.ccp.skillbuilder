@@ -23,3 +23,12 @@ Once the transaction's complete, now it's just time to come home. It's the retur
 The packet pass the network ACL, the subnet level, which means the packets now made it back to instance A but the security group, the doorman is still in charge here. The key difference though is these security groups are stateful. The security group recognizes the packet from before. So it doesn't need to check to see if it's allowed in. Come on home. 
 
 Now, this may seem like we spent a lot of effort just getting a packet from one instance to another and back. You might be concerned about all the network overhead this might generate. The reality is all of these exchanges happen instantly as part of how AWS Networking actually works. If you wanna know the technology that makes all that possible, well, then you need to sign up for a completely different set of trainings. Good network security will take advantage of both network ACLs and security groups, because security in-depth is critical for modern architectures.
+
+Quiz:
+Which statement best describes an AWS account’s default network access control list?
+The correct response option is It is stateless and allows all inbound and outbound traffic.
+Network access control lists (ACLs) perform stateless packet filtering. They remember nothing and check packets that cross the subnet border each way: inbound and outbound.
+Each AWS account includes a default network ACL. When configuring your VPC, you can use your account’s default network ACL or create custom network ACLs.
+By default, your account’s default network ACL allows all inbound and outbound traffic, but you can modify it by adding your own rules. For custom network ACLs, all inbound and outbound traffic is denied until you add rules to specify which traffic should be allowed. Additionally, all network ACLs have an explicit deny rule. This rule ensures that if a packet doesn’t match any of the other rules on the list, the packet is denied.
+Learn more: Network ACLs
+https://docs.aws.amazon.com/vpc/latest/userguide/vpc-network-acls.html
