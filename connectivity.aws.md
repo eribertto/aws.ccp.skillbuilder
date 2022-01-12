@@ -31,4 +31,17 @@ Internet gateway
 
 To allow public traffic from the internet to access your VPC, you attach an internet gateway to the VPC.
 
+--
+Virtual private gateway
+
+To access private resources in a VPC, you can use a virtual private gateway. 
+
+Here’s an example of how a virtual private gateway works. You can think of the internet as the road between your home and the coffee shop. Suppose that you are traveling on this road with a bodyguard to protect you. You are still using the same road as other customers, but with an extra layer of protection. 
+
+The bodyguard is like a virtual private network (VPN) connection that encrypts (or protects) your internet traffic from all the other requests around it. 
+
+The virtual private gateway is the component that allows protected internet traffic to enter into the VPC. Even though your connection to the coffee shop has extra protection, traffic jams are possible because you’re using the same road as other customers. 
+
+
+
 
