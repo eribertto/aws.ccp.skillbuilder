@@ -15,3 +15,28 @@ AWS offers brand new technologies in things like Internet of Things. Enabling co
 Speaking of communication around the world, have you ever wanted to have your own satellite? Too expensive to launch your own? Why not just use AWS Ground Station and only pay for the satellite time you actually need? 
 
 I could go on for days talking about all these new technologies. Like literally for days. AWS Training and Certification offers training classes on many of these technologies already, and every month, AWS seems to release something even better for us to talk about.
+
+=======
+
+With AWS, serverless refers to applications that don’t require you to provision, maintain, or administer servers. You don’t need to worry about fault tolerance or availability. AWS handles these capabilities for you.
+
+AWS Lambda is an example of a service that you can use to run serverless applications. If you design your architecture to trigger Lambda functions to run your code, you can bypass the need to manage a fleet of servers.
+
+Building your architecture with serverless applications enables your developers to focus on their core product instead of managing and operating servers.
+
+=======
+
+AWS offers a variety of services powered by artificial intelligence (AI). 
+
+For example, you can perform the following tasks:
+
+Convert speech to text with Amazon Transcribe.
+Discover patterns in text with Amazon Comprehend.
+Identify potentially fraudulent online activities with Amazon Fraud Detector.
+Build voice and text chatbots with Amazon Lex.
+
+=======
+
+Traditional machine learning (ML) development is complex, expensive, time consuming, and error prone. AWS offers Amazon SageMaker to remove the difficult work from the process and empower you to build, train, and deploy ML models quickly.
+
+You can use ML to analyze data, solve complex problems, and predict outcomes before they happen.
