@@ -6,6 +6,7 @@ Security
 Reliability
 Performance efficiency
 Cost optimization
+
 Six advantages of cloud computing:
 Trade upfront expense for variable expense.
 Benefit from massive economies of scale.
@@ -13,6 +14,7 @@ Stop guessing capacity.
 Increase speed and agility.
 Stop spending money running and maintaining data centers.
 Go global in minutes.
+
 Additional resources
 
 To learn more about the concepts that were explored in Module 10, review these resources.
